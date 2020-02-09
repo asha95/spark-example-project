@@ -29,6 +29,9 @@ node {
        
       
    }
+    stage('creating EMR cluster'){
+         sh "./emrcluster.sh --region us-east-1"
+      }
        
 
 }
